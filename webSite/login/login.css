@@ -1,0 +1,86 @@
+body{
+    font-family: Arial;
+    background: url('../assets/photo/background3.jpg');
+
+}
+
+.logo{
+    font-size: 20px;
+    font-family: cursive;    
+    padding-left: 30px;
+}
+input[type=password]{
+    width: 310px;
+    height: 35px;
+    top: 314px;
+    left: 359px;
+    border-radius: 13px;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0.205);
+    position: absolute;
+}
+input[type=email]{
+    
+    width: 310px;
+    height: 35px;
+    border-radius: 13px;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0.205);
+    position: absolute;
+    left: 359px;
+    top: 228px;
+}
+.person{
+    height: 100px;
+    position: absolute;
+    left: 932px;
+    width: 319px;
+    height: 309px;
+    top: 103px;
+}
+.button-login{
+    font-size: 20px;
+    position: absolute;
+    top: 405px;
+    left: 362px;
+    background-color: rgba(100, 125, 237, 0.87);
+    border-radius: 7px;
+    height: 46px;
+    width: 252px;
+}
+.button-login:hover{
+    background-color: rgba(100, 125, 237, 0.521);
+}
+.button-signup{
+    font-size: 20px;
+    position: absolute;
+    top: 405px;
+    left: 614px;
+    background-color: rgba(100, 125, 237, 0.87);
+    border-radius: 7px;
+    height: 46px;
+    width: 135px;
+}
+.button-signup:hover{
+    background-color: rgba(100, 125, 237, 0.521);
+}
+.email-icon{
+    position: absolute;
+    top: 237px;
+    height: 21px;
+    left: 653px;
+}
+.password-icon{
+    position: absolute;
+    top: 322px;
+    height: 21px;
+    left: 656px;
+}
+.checked-icon{
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 575px;
+    top: 413px;
+
+}

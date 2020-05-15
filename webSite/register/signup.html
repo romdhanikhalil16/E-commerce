@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="logo"><h1>E-COMMERCE</h1></div>
+    <form class="wrap" >
+        <img class="person" src="../assets/photo/person.png" alt="person">
+        <div  class="inputs"> 
+        <input type="text" id="lastName" required><br><br>
+         <img class="person-icon" src="../assets/photo/person-icon.svg" alt="">
+        <input type="text" id="firstName" required><br><br>
+        <input type="date" placeholder="" id="date" required><br><br>
+        <img class="birthday-icon" src="../assets/photo/birthday-icon.svg" alt="">
+        <input type="email"  id="email" required><br><br>
+        <img class="email-icon" src="../assets/photo/iconemail.svg" alt="">
+        <input type="password"  id="password"required><br><br>
+         <img class="password-icon" src="../assets/photo/password-icon.svg" alt="">
+         <button  class="button" onclick="addPerson()">register</button>
+    </div>
+    </form>
+    <a class='login-answer' href="../login/login.html">You have already an account ?</a>
+    <script src="signup.js"></script> 
+    
+</body>
+</html>

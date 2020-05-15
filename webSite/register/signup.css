@@ -1,0 +1,88 @@
+body{
+    font-family: Arial;
+    background: url('../assets/photo/background3.jpg');
+
+}
+.wrap{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: 273px;
+    box-sizing: border-box;
+    color: #fff;
+    margin-top: 34px;
+    float: left;
+
+}
+.logo{
+    font-size: 20px;
+    font-family: cursive;    
+    padding-left: 30px;
+}
+input[type=text],input[type=password],input[type=email],input[type=date]{
+    width: 200%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background-color: rgba(0, 0, 0, 0.205);
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color:black;
+    border-radius: 10px;
+    margin: 13px;
+    padding-left: 14px;
+ }
+ .person{
+    height: 100px;
+    position: absolute;
+    left: 932px;
+    width: 319px;
+    height: 309px;
+    top: 164px;
+}
+ 
+ .email-icon{
+    position: absolute;
+    top: 427px;
+    height: 21px;
+    left: 666px;
+}
+.password-icon{
+    position: absolute;
+    top:513px;
+    height: 21px;
+    left: 666px;
+}
+.birthday-icon{
+    position: absolute;
+    top: 338px;
+    height: 21px;
+    left: 666px;
+}
+.person-icon{
+
+position: absolute;
+    top: 250px;
+    height: 21px;
+    left: 666px;
+}
+.button{
+    font-size: 20px;
+    position: absolute;
+    top: 607px;
+    left: 378px;
+    background-color: rgba(100, 125, 237, 0.87);
+    border-radius: 7px;
+    height: 46px;
+    width: 254px
+}
+.button:hover{
+    background-color: rgba(100, 125, 237, 0.521);
+}
+.login-answer{
+    position: absolute;
+    top: 563px;
+    left: 392px;
+    font-size: 17px;
+    text-decoration:none;
+    color: red;
+}
